@@ -21,7 +21,7 @@ app.post('/new-messages', ((req, res) => {
  
     const message = req.body;
     emitter.emit('newMessage', message)
-    res.status(200)
+    res.sendStatus(200)
 }))
 
 
