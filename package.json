@@ -1,0 +1,20 @@
+{
+  "name": "csapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sentry11/Real-Time-Chat-Longplling.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sentry11/Real-Time-Chat-Longplling/issues"
+  },
+  "homepage": "https://github.com/Sentry11/Real-Time-Chat-Longplling#readme"
+}

@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#828497;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+  .center{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow:  20px -20px 60px #6f7080,
+             -20px 20px 60px #9698ae;
+    border-radius: 10px;
+
+  }
+
+
+
+  .form{
+    display: flex;
+    letter-spacing: 1px;
+   
+    flex-direction: column;
+  }
+
+  .name{
+    font-size: 32px;
+    padding-right:15px;
+    color:white;
+    text-align: center;
+    margin: 7px;
+    width: 240px;
+  }
+
+  input{
+    margin: 7px;
+    justify-content: center;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #8b8da2, #757788);
+    box-shadow:  20px -20px 60px #6f7080,
+                 -20px 20px 60px #9698ae;
+    border-radius:10px;
+    border: #6f7080;
+    height: 30px;
+    width: 240px;
+    padding: 4px;
+    padding-left: 4px;
+    color:white;
+    font-size:20px;
+  }
+
+  input:focus, input:focus{
+    outline: white;
+  }
+
+
+  button{
+    margin: 7px;
+    justify-content: center;
+    border-radius: 10px;
+    background: linear-gradient(225deg, #757788, #8b8da2);
+    box-shadow:  -20px 20px 60px #6f7080,
+             20px -20px 60px #9698ae;
+
+    border:#6f7080;
+    color:white;
+    height:40px;
+    width: 240px;
+    font-size:20px;
+  }
+
+  .messages{
+    text-align: center;
+    background:transparent;
+    margin-top: 100px;
+  }
+
+  .message{
+    font-size:24px;
+    color: white;
+    border-radius: 100px;
+    background: #828497;
+    box-shadow: inset 20px 20px 60px #6f7080,
+            inset -20px -20px 60px #9698ae;
+    height: 50px;
+    margin:20px;
+    padding-top: 20px;
+  }
