@@ -5,4 +5,4 @@ After you have installed the repository on your computer, install the npm depend
 Next, with cd comand go to server directoty and start the server with npm start command  
 then do same to the client.  
 
-<img src="https://github.com/Sentry11/media/long pulling.png" height="32"/>
+<img src="https://github.com/Sentry11/media/chat.png" height="32"/>
