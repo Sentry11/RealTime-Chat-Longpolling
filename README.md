@@ -6,4 +6,4 @@ Next, with cd comand go to server directoty and start the server with npm start 
 then do same to the client.    
 # Below you can see example of work on client side
 
-<img src="https://github.com/Sentry11/media/raw/main/chat.png" height="132"/>
+<img src="https://github.com/Sentry11/media/raw/main/long pulling.png" height="450"/>
