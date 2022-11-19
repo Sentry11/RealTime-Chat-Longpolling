@@ -1,6 +1,5 @@
 import React, {useEffect, useState, useRef} from 'react';
 import axios from "axios";
-
 import './App.css'
 
 const LongPulling = () => {
@@ -32,17 +31,12 @@ const LongPulling = () => {
         }
       }
       
-
-
-
     const sendMessage = async () => {
         await axios.post('http://localhost:5000/new-messages', {
             message: value,
             id: Date.now()
         },config)
     }
-
-  
 
     return (
         <>
