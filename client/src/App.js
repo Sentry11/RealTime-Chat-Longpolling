@@ -1,9 +1,6 @@
 import LongPulling from "./longPulling";
 
-
 const  App = () => {
-
-
   return (
     <div >
       <LongPulling/>
